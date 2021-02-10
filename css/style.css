@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;700;900&display=swap");
+@media (min-width: 768px) {
+  /* line 7, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+  .id {
+    margin-bottom: 49px !important;
+  }
+  /* line 9, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+  .id img {
+    width: 188px !important;
+  }
+  /* line 12, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+  .id p {
+    margin-top: 52.5px !important;
+  }
+  /* line 15, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+  .id h1 {
+    padding-top: 12px !important;
+  }
+  /* line 19, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+  .btn {
+    margin-bottom: 15px !important;
+  }
+  /* line 23, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+  main .container {
+    max-width: 960px;
+  }
+  /* line 27, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+  #collapse2 h1 {
+    margin-bottom: 20px !important;
+  }
+  /* line 30, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+  #collapse2 .notFirst {
+    margin-top: 20px !important;
+  }
+  /* line 34, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+  footer {
+    display: none;
+  }
+}
+
+/* line 39, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+* {
+  text-align: center;
+  font-family: roboto;
+  font-size: 13px;
+  line-height: 15px;
+  color: #333333;
+}
+
+/* line 47, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+main {
+  padding-bottom: 60px;
+}
+
+/* line 51, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+.linkedin {
+  width: 25px;
+  height: auto;
+  margin-top: 13px;
+}
+
+/* line 57, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+.cv {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  padding-top: 10px;
+}
+
+/* line 65, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+a.bouton:active {
+  outline-style: none;
+}
+
+/* line 67, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+h1 {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-stretch: 4%;
+  font-weight: bold;
+}
+
+/* line 74, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+h3 {
+  font-size: 13px;
+  font-weight: bolder;
+  line-height: 15px;
+}
+
+/* line 80, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+h4 {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 15px;
+}
+
+/* line 86, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+h5 {
+  font-size: 13px;
+  line-height: 15px;
+}
+
+/* line 91, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+li {
+  margin-top: 5px;
+  text-align: justify;
+}
+
+/* line 96, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+.btn {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-stretch: 4%;
+  margin-bottom: 7px;
+  padding: 16.5px 0;
+  font-weight: bold;
+}
+
+/* line 103, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+.btn:active {
+  border: none;
+}
+
+/* line 108, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+.accordion-collapse {
+  padding-top: 10px;
+}
+
+/* line 112, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+#headingThree {
+  margin-bottom: 6.5px;
+}
+
+/* line 116, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+.btn-check:focus + .btn, .btn:focus {
+  box-shadow: none;
+}
+
+/* line 120, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+.btn-check:focus + .btn-dark, .btn-dark:focus {
+  box-shadow: none;
+}
+
+/* line 124, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+.id {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+/* line 127, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+.id img {
+  border-radius: 50%;
+  width: 150px;
+  height: auto;
+}
+
+/* line 132, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+.id p {
+  margin-top: 25px;
+  font-size: 30px;
+  font-stretch: -1.5%;
+  font-family: Montserrat;
+}
+
+/* line 138, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+.id h1 {
+  padding-top: 12px;
+}
+
+/* line 143, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+.accordion-body {
+  padding-top: 10px;
+}
+
+/* line 147, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+.accordion-collapse {
+  border: none;
+}
+
+/* line 152, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+#collapseOne span, #collapse3 span {
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+/* line 155, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+#collapseOne span b, #collapse3 span b {
+  text-transform: none;
+  font-size: 13px;
+}
+
+/* line 163, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+#collapse2 h1 {
+  margin-bottom: 13px;
+}
+
+/* line 166, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+#collapse2 .notFirst {
+  margin-top: 20px;
+}
+
+/* line 173, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+#collapseThree p b {
+  line-height: 1.5rem;
+}
+
+/* line 180, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+#collapse4 img {
+  margin-bottom: 20px;
+}
+
+/* line 185, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* line 193, ../../../../../Users/rodolphebossin/Documents/Humanbooster/Cours/TRE/cv/cv web/scss/style.scss */
+footer img {
+  height: 32px;
+  width: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
